@@ -1,1 +1,8 @@
-AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+# Abobora-dev
+# Projeto de sabado
+Projeto de exemplo que sera desenvolvido em sala de aula.
+
+# Contexto geral
+Este projeto 
+# Como executar 
+1. Baixe o repositorio acessando o github, seja baixando o projeto zip ou baixando direto pelo git com o comando 'git clone <nome do repositorio>'
