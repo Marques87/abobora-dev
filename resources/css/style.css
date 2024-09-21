@@ -1,0 +1,30 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: flex-start;/* Centraliza horizontalmente */
+    align-items: left;    /* Centraliza verticalmente */
+    padding-left: 20%;         /* Adiciona espaço à esquerda, opcional */
+    padding-block-start: 10%;
+    height: 100vh;        /* Faz o container ocupar 100% da altura da janela de visualização */
+}
+
+.conteiner2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 30%;
+    padding-block-start: 10%;
+    
+}
+
+.quadrado{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0cap;
+}
