@@ -1,0 +1,72 @@
+.facebook {
+   
+    width: 20px;
+    align-items: center;
+    
+}
+
+.button{
+    background-color: #1B2755;
+    color: aliceblue;
+    border-radius: 8px;
+    padding: 1em 0.5em 1em 0.5em;
+    text-decoration: none;
+    margin-bottom: 1em;
+    width: 32rem;
+    text-align: center
+}
+
+
+.google {
+    width: 20px;
+    align-items: center;
+}
+
+.titulo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linklo{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.formsn{
+    text-align: center;
+    position: relative;
+}
+
+.senha1 {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    padding: 1em 0.5em 1em 0.5em;
+    text-decoration: none;
+    margin-bottom: 1em;
+    width: 32rem;
+    text-align: center;
+}
+
+.senha2 {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    padding: 1em 0.5em 1em 0.5em;
+    text-decoration: none;
+    margin-bottom: 1em;
+    width: 32rem;
+    text-align: center;
+}
+
+.numero3 {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    padding: 1em 0.5em 1em 0.5em;
+    text-decoration: none;
+    margin-bottom: 1em;
+    width: 32rem;
+    text-align: center;
+}
