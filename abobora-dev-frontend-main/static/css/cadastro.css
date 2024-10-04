@@ -1,0 +1,79 @@
+:root{
+    --princ: #38B6FF;
+}
+
+body{
+    background-image: url(/static/css/cadastro-images/celular-bg.jpeg);
+}
+
+.form-area input{
+    background-color: rgb(231, 231, 231);
+
+}
+
+.dadoInvalido {
+    padding-top: 1rem;
+    font-size: 1.6rem;
+    text-align: center;
+    display: none;
+    color: red;
+    font-weight: 600;
+}
+
+input.redBorder, input.redBorder:focus{
+    border: 2px solid red;
+}
+
+.showError{
+    display: block;
+}
+
+.teste{
+    background-color: rebeccapurple;
+}
+
+.form-area input:focus{
+    border: 2px solid var(--princ);
+}
+
+#temConta{
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: roboto;
+}
+
+#temConta a{
+    color: blue;
+}
+
+button#cadastrar{
+    background-color: var(--princ);
+    color: black;
+}
+
+button#cadastrar:hover{
+    background-color: #0c87ce;
+    color: white;
+}
+
+@media screen and (min-width: 768px){
+    body{
+        background-image: url(/static/css/cadastro-images/tablet-bg.jpeg);
+    }
+}
+
+@media screen and (min-width: 1400px ){
+    #bg-image{
+        background-image: url(/static/css/cadastro-images/notebook-bg.jpeg);
+    }
+
+}
+
+@media screen and (min-width: 1700px){
+    #bg-image{
+        background-image: url(/static/css/cadastro-images/desktop-bg.jpeg);
+        background-position: center top;
+        width: 300px;
+        height: 100vh;
+    }
+}

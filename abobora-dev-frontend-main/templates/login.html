@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S1 News</title>
+    <link rel="stylesheet" href="/static/css/index.css">
+    <link rel="stylesheet" href="/static/css/login.css">
+</head>
+
+<body>
+    <div id="bg-image">
+    </div>
+
+    <main>
+        <div id="logos">
+
+            <img src="/images/logo_nome.jpeg" alt="Instiga">
+            <img src="/images/logo-instiga.jpeg" alt="Logo">
+
+        </div>
+        <form action="{{ url_for('login') }}" method="POST">
+
+            <fieldset>
+                <div class="form-area">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" autofocus required>
+
+                </div>
+                <div class="form-area">
+
+                    <label for="password">Senha</label>
+                    <input type="password" name="senha" id="password" required>
+                    <a id="esqueceusenha" href="#">Esqueceu a senha?</a>
+
+                </div>
+
+                <button id="login">Login</button>
+
+            </fieldset>
+            
+            <p id="connect">ou</p>
+            <button id="Google"><img src="../images/google.png" alt="">Google</button>
+            <p id="cadastro">Não tem conta? <a href="../cadastro/cadastro.html">Cadastre-se</a></p>
+
+        </form>
+
+    </main>
+</body>
+
+</html>

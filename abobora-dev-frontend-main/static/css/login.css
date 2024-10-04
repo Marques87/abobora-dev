@@ -1,0 +1,96 @@
+:root{
+    --princ: #4a1079;
+    --violeta-claro: #370e58;
+    --violeta-escuro: #210736;
+    --azul-claro: #23396D;
+    --azul-escuro: #0C2568;
+}
+
+body{
+    background-image: url(/static/css/login/login-images/celular-bg.png);
+}
+
+#esqueceusenha{
+    margin-top: .3rem;
+    text-align: right;
+    font-size: 1.2rem;
+}
+
+#login{
+    background-color: var(--princ);
+    color: white;
+}
+#login:hover{
+    background-color: var(--violeta-claro);
+}
+
+#connect{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+#connect:after, #connect:before{
+    margin: 1.2rem .8rem;
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 1px;
+    width: 55px;
+    background-color: black;
+}
+
+#cadastro{
+    margin-block: .5rem;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: Roboto;
+
+}
+a{
+    color: blue;
+}
+
+#Google{
+    background-color: var(--azul-claro);
+    border: 2px solid var(--princ);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+#Google:hover{
+    background-color: rgb(236, 236, 236);
+}
+#Google img{
+    width: 32px;
+}
+
+
+@media screen and (min-width: 768px){
+    body{
+        background-image: url(/static/css/login/login-images/tablet-bg.jpg);
+    }
+}
+
+@media screen and (min-width: 1400px ){
+    #bg-image{
+        background-image: url(/static/css/login/login-images/notebook-bg.png);
+    }
+    
+    #connect{
+        margin-block: 1rem;
+    }
+
+    #cadastro{
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 1700px){
+    #bg-image{
+        background-image: url(/static/css/login/login-images/desktop-bg.jpeg);
+        width: 300px;
+        height: 100vh;
+    }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S1 News</title>
+    <link rel="stylesheet" href="/static/css/index.css">
+    <link rel="stylesheet" href="/static/css/cadastro.css">
+</head>
+
+<body>
+    <div id="bg-image">
+    </div>
+
+    <main>
+        <div id="logos">
+
+            <img src="/static/css/images/logo_nome.jpeg" alt="Instiga">
+            <img src="/static/css/images/logo_imagem.jpeg" alt="Logo">
+
+        </div>
+        
+        <form action="{{ url_for('cadastro') }}" method="POST">
+            <fieldset>
+                <div class="form-area">
+                    <label for="email">Email</label>
+                    <input type="email" class="inputData" name="email" id="emailCadastro" autofocus onblur="emailValidate()" required>
+                    <p class="dadoInvalido">Digite um endereço de email válido!</p>
+                </div>
+
+                <div class="form-area">
+                    <label for="name">Nome Completo</label>
+                    <input type="text" class="inputData" name="name" id="nomeCadastro" onblur="nameValidate()" required>
+                    <p class="dadoInvalido">Digite seu nome completo!</p>
+                </div>
+
+                <div class="form-area">
+                    <label for="password">Senha</label>
+                    <input type="password" class="inputData" name="senha" id="passwordCadastro" onblur="passwordValidate()" required>
+                    <p class="dadoInvalido">Sua senha deve ter entre 8 e 14 caracteres alfanuméricos!</p>
+                </div>
+
+                <button id="cadastrar">Cadastrar-se</button>
+
+                <span id="temConta">Já possui uma conta? <a href="login.html">Entrar</a></span>
+
+            </fieldset>
+        </form>
+                
+
+    </main>
+</body>
+<script src="/scripts/cadastro.js"></script>
+</html>
