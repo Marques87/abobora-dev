@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(/static/css/login/login-images/celular-bg.png);
+    background-image: url(/static/css/login/desktop-bg.png);
 }
 
 #esqueceusenha{
@@ -69,13 +69,13 @@ a{
 
 @media screen and (min-width: 768px){
     body{
-        background-image: url(/static/css/login/login-images/tablet-bg.jpg);
+        background-image: url(/static/css/login/desktop-bg.png);
     }
 }
 
 @media screen and (min-width: 1400px ){
     #bg-image{
-        background-image: url(/static/css/login/login-images/notebook-bg.png);
+        background-image: url(/static/css/login/desktop-bg.png);
     }
     
     #connect{
@@ -89,7 +89,7 @@ a{
 
 @media screen and (min-width: 1700px){
     #bg-image{
-        background-image: url(/static/css/login/login-images/desktop-bg.jpeg);
+        background-image: url(/static/css/login/desktop-bg.png);
         width: 300px;
         height: 100vh;
     }

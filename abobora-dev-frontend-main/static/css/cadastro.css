@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: url(/static/css/cadastro-images/celular-bg.jpeg);
+    background-image: url(/static/css/login/desktop-bg.png);
 }
 
 .form-area input{
@@ -58,20 +58,20 @@ button#cadastrar:hover{
 
 @media screen and (min-width: 768px){
     body{
-        background-image: url(/static/css/cadastro-images/tablet-bg.jpeg);
+        background-image: url(/static/css/login/desktop-bg.png);
     }
 }
 
 @media screen and (min-width: 1400px ){
     #bg-image{
-        background-image: url(/static/css/cadastro-images/notebook-bg.jpeg);
+        background-image: url(/static/css/login/desktop-bg.png);
     }
 
 }
 
 @media screen and (min-width: 1700px){
     #bg-image{
-        background-image: url(/static/css/cadastro-images/desktop-bg.jpeg);
+        background-image: url(/static/css/login/desktop-bg.png);
         background-position: center top;
         width: 300px;
         height: 100vh;
