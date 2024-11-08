@@ -31,7 +31,7 @@ header{
     height: 100px;
 }
 
-.barrinhas{
+.bars{
     margin-top: 1%;
     margin-left: 20px;
     margin-right: 10px;
@@ -109,7 +109,7 @@ body{
 
 }
 
-.imagem-noticia2{
+.image-report2{
     filter: brightness(50%);
 }
 
@@ -162,7 +162,7 @@ body{
 
 .title3 h2 {
     font-size: 17px;
-    font-weight: 100;
+    font-weight: 500;
 
 }
 
@@ -179,5 +179,3 @@ body{
     font-family: 'Inria Serif', serif;
     font-weight: 100;
 }
-
-
