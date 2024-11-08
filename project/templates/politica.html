@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/static/css/style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    <br>
+    <div class="Assineja">
+        <p>
+            <label>Assine já 
+                <div class="account_circle">
+                    <img src="/static/account_circle.png">
+                </div> Conta S1 News</label>
+        </p>    
+    </div>
+</header>
+<div class="purpleheader">
+    <p>
+        <label>
+            <div class="barrinhas">
+                <a href="{{ url_for('menupage') }}" style="background-color: transparent; border: none; display: inline-block;">
+                    <img src="/static/Barrinhas.png">
+                </a>              
+
+            </div>
+            <div class="menu">
+                <label style="color: white; margin-top: 100px;">menu</label>
+            </div>
+        </label>
+        <div class="whiteline">
+            <img src="/static/linha_branca.png" height="40" width="90">
+        </div>
+        <h1 class="S1" style="color: white; margin-left: 30px; margin-top: 2.4%;">S1</h1>
+        <div class="titulodapagina" style="color: white">Política</div>
+    </p>
+</div>
+<div class="grid-container">
+        <a href="{{ url_for('noticia1_page') }}"><div class="grid-item1">
+        <div class="imagem-noticia1">
+        <img src="/static/imagempolitica1.png" height="670" width="600">
+        </div>
+        <div class="title1">
+            <h1>Aumento do salário mínimo é aprovado pelo Congresso</h1>
+            <div class="resumo1">
+                <h2> O Congresso Nacional aprovou um aumento no salário mínimo, que passará a ser de R$ 1.500,00 a partir de janeiro de 2025. A medida visa combater a inflação e melhorar a qualidade de vida dos trabalhadores.</h2>
+            </div>
+        </div>
+        </a>
+    </div>  
+    
+        <a href="{{ url_for('noticia2_page') }}"><div class="grid-item2">
+        <div class="imagem-noticia2">
+        <img src="/static/imagempolitica2.png" height="320" width="600">
+        </div>
+        <div class="title2">
+            <h1>Protestos em Brasília pelos direitos trabalhistas</h1>
+            <div class="resumo2">
+                <h2>Em Brasília, trabalhadores têm protestado por melhores condições e contra a precarização, buscando a defesa de seus direitos e salários justos.</h2>
+            </div>
+        </div>
+        </a>
+    
+    </div>
+    <div class="grid-item3">
+        <div class="imagem-noticia3">
+            <a href="{{ url_for('noticia3_page') }}"><img src="/static/imagempolitica3.png" height="320" width="600">
+        </div>
+        <div class="title3">
+            <h1>Eleições 2024 em Cabo de Santo Agostinho (PE): veja os candidatos a prefeito e a vereador</h1>
+            <div class="resumo3">
+                <h2>Do total de entrevistados, 52% acreditam que Cabral vai vencer disputa pela prefeitura da cidade</h2>
+            </div>
+        </div>
+    </div>
+</div>
+</a>
+</body>
+</html>
